@@ -2,16 +2,19 @@
   "name": "homework6",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://{Polymer-505}.github.io/{HW6_frontend4}/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.16.4"
   }
 }
