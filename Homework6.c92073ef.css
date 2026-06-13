@@ -3,7 +3,6 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: sans-serif;
   transition: background .3s, color .3s;
   display: flex;
 }
@@ -12,7 +11,7 @@ button {
   cursor: pointer;
   color: inherit;
   background: none;
-  border: 2px solid;
+  border: 2px solid #000;
   border-radius: 8px;
   padding: 15px 30px;
   font-size: 18px;
